@@ -1,12 +1,36 @@
+@media (max-width: 600px){
+    .cards {
+        flex-direction: column;
+    }
+
+    .name-input{
+        flex-direction: column;
+    }
+    .th{
+        min-width: 100px!important;
+    }
+    
+}
+
+@media (max-width: 992px) {
+    .heading{
+        display: inline!important;
+    }
+}
+
 main{
-    margin: 0px 40px 0px 40px;
+    margin: 0px 40px 40px 40px;
+}
+
+.heading{
+    display: none;
 }
 
 .cards{
-    margin: 0px 40px 0px 40px;
-    padding-top: 20px;
+    padding-top: 10px;
     justify-content: space-between;
     gap: 20px;
+    margin: 10px;
 }
 
 .accordion{
@@ -25,3 +49,4 @@ main{
 .name-input{
     gap: 20px;
 }
+
